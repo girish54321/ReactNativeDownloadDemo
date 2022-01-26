@@ -3,14 +3,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-project 'Starter','DebugDev' => :debug,'DebugStaging' => :debug,'DebugProd' => :debug,'ReleaseDev' => :release,'ReleaseStaging' => :release,'ReleaseProd' => :release
+project 'DownloadDemo','DebugDev' => :debug,'DebugStaging' => :debug,'DebugProd' => :debug,'ReleaseDev' => :release,'ReleaseStaging' => :release,'ReleaseProd' => :release
 
-target 'Starter' do
+target 'DownloadDemo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'StarterTests' do
+  target 'DownloadDemoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -25,10 +25,10 @@ target 'Starter' do
   end
 end
 
-target 'Starter-tvOS' do
-  # Pods for Starter-tvOS
+target 'DownloadDemo-tvOS' do
+  # Pods for DownloadDemo-tvOS
 
-  target 'Starter-tvOSTests' do
+  target 'DownloadDemo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

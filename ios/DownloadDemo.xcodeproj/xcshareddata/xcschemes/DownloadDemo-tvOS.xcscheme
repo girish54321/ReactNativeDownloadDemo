@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Starter-tvOS.app"
-               BlueprintName = "Starter-tvOS"
-               ReferencedContainer = "container:Starter.xcodeproj">
+               BuildableName = "DownloadDemo-tvOS.app"
+               BlueprintName = "DownloadDemo-tvOS"
+               ReferencedContainer = "container:DownloadDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Starter-tvOSTests.xctest"
-               BlueprintName = "Starter-tvOSTests"
-               ReferencedContainer = "container:Starter.xcodeproj">
+               BuildableName = "DownloadDemo-tvOSTests.xctest"
+               BlueprintName = "DownloadDemo-tvOSTests"
+               ReferencedContainer = "container:DownloadDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -59,9 +59,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Starter-tvOS.app"
-            BlueprintName = "Starter-tvOS"
-            ReferencedContainer = "container:Starter.xcodeproj">
+            BuildableName = "DownloadDemo-tvOS.app"
+            BlueprintName = "DownloadDemo-tvOS"
+            ReferencedContainer = "container:DownloadDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -70,9 +70,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Starter-tvOSTests.xctest"
-               BlueprintName = "Starter-tvOSTests"
-               ReferencedContainer = "container:Starter.xcodeproj">
+               BuildableName = "DownloadDemo-tvOSTests.xctest"
+               BlueprintName = "DownloadDemo-tvOSTests"
+               ReferencedContainer = "container:DownloadDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Starter-tvOS.app"
-            BlueprintName = "Starter-tvOS"
-            ReferencedContainer = "container:Starter.xcodeproj">
+            BuildableName = "DownloadDemo-tvOS.app"
+            BlueprintName = "DownloadDemo-tvOS"
+            ReferencedContainer = "container:DownloadDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -109,9 +109,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Starter-tvOS.app"
-            BlueprintName = "Starter-tvOS"
-            ReferencedContainer = "container:Starter.xcodeproj">
+            BuildableName = "DownloadDemo-tvOS.app"
+            BlueprintName = "DownloadDemo-tvOS"
+            ReferencedContainer = "container:DownloadDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
