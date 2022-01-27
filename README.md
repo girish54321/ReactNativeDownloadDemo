@@ -1,30 +1,70 @@
-# React Native TypeScript Starter with Flavors ❤️
-A React Native boilerplate project using Typescript and React Navigation.
- 
- ## Demo iOS 
- 
- Home             |  Settings
-:-------------------------:|:-------------------------:
-<img src="appImages/demo.png" width="320px" />  |  <img src="appImages/demo.png" width="320px" />
 
- ## Demo Android
- 
- Home             |  Settings
-:-------------------------:|:-------------------------:
-<img src="appImages/demo.png" width="320px" />  |  <img src="appImages/demo.png" width="320px" />
+# React Native File Download 🔥
 
-## Run Locally
+In this repo you will find quick snippet for downloading file in React Native (android & iOS)
+
+
+## Installation 🔧
+
+Install `rn-fetch-blob` in your project
+
+### npm
+```bash
+  npm i rn-fetch-blob 
+```
+### yarn
+```bash
+  yarn add rn-fetch-blob 
+```
+    
+### Installation Android 
+
+Add required permission in `AndroidManifest.xml`
+
+```bash
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+```
+
+### Installation iOS 
+
+No changes required for iOS.
+## Usage 🤔
+
+Copy `DownloadFileServices.ts` File into your project & import like below.
+
+```javascript
+// import File in your code 👇
+
+import { DownloadFile } from '../DownloadFileServices';
+
+function App() {
+  return  (
+      <TouchableOpacity 
+        onPress={() => {
+            let fileUrl = "Your File URL";
+            DownloadFile(fileUrl); // Pass URL in function 
+        }} >
+            <Text>Click Me</Text>
+        </TouchableOpacity>
+    )
+}
+```
+
+
+## Run Demo project locally 🏃🏽‍♀️
 
 Clone the project
 
 ```bash
-  git clone https://github.com/girish54321/react-native-typescript-starter.git
+  git clone https://github.com/girish54321/ReactNativeDownloadDemo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd react-native-typescript-starter
+  cd ReactNativeDownloadDemo
 ```
 
 Install dependencies
@@ -33,32 +73,28 @@ Install dependencies
   yarn
 ```
 
-On Android DEV
+Start the project
 
 ```bash
   yarn android_dev_debug
 ```
-On Android Staging
 
-```bash
-  yarn android_staging_debug
-```
-On Android PROD
 
-```bash
-  yarn android_prod_debug
-```
-On iOS or use XCode
+## Screenshots
 
-```bash
-  cd ios && pod install && cd .. && yarn run ios11
-```
+![App Screenshot](appImages/demo.png)
+
+
 ## FAQ
 
-#### How to change ios simulator
+#### How to use `DownloadFileServices.ts` file in vanilla javascript 
 
-Go to ```package.json``` file add you favorite ❤️ simulator
+Just rename `DownloadFileServices.ts` to `DownloadFileServices.js` and remove `types`. 😇
 
-## Tech Stack
 
-React, React native, Redux
+
+## Contributing 🙏🏽
+
+Contributions are always welcome!
+
+
