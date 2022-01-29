@@ -1,23 +1,24 @@
-
 # React Native File Download 🔥
 
 In this repo you will find quick snippet for downloading file in React Native (android & iOS)
-
 
 ## Installation 🔧
 
 Install `rn-fetch-blob` in your project
 
 ### npm
+
 ```bash
-  npm i rn-fetch-blob 
+  npm i rn-fetch-blob
 ```
+
 ### yarn
+
 ```bash
-  yarn add rn-fetch-blob 
+  yarn add rn-fetch-blob
 ```
-    
-### Installation Android 
+
+### Installation Android
 
 Add required permission in `AndroidManifest.xml`
 
@@ -27,9 +28,10 @@ Add required permission in `AndroidManifest.xml`
 <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 ```
 
-### Installation iOS 
+### Installation iOS
 
 No changes required for iOS.
+
 ## Usage 🤔
 
 Copy `DownloadFileServices.ts` File into your project & import like below.
@@ -37,21 +39,21 @@ Copy `DownloadFileServices.ts` File into your project & import like below.
 ```javascript
 // import File in your code 👇
 
-import { DownloadFile } from '../DownloadFileServices';
+import { DownloadFile } from "../DownloadFileServices";
 
 function App() {
-  return  (
-      <TouchableOpacity 
-        onPress={() => {
-            let fileUrl = "Your File URL";
-            DownloadFile(fileUrl); // Pass URL in function 
-        }} >
-            <Text>Click Me</Text>
-        </TouchableOpacity>
-    )
+  return (
+    <TouchableOpacity
+      onPress={() => {
+        let fileUrl = "Your File URL";
+        DownloadFile(fileUrl); // Pass URL in function
+      }}
+    >
+      <Text>Click Me</Text>
+    </TouchableOpacity>
+  );
 }
 ```
-
 
 ## Run Demo project locally 🏃🏽‍♀️
 
@@ -79,22 +81,16 @@ Start the project
   yarn android_dev_debug
 ```
 
-
 ## Screenshots
 
-![App Screenshot](appImages/demo.png)
-
+![App Screenshot](appImages/banner.png)
 
 ## FAQ
 
-#### How to use `DownloadFileServices.ts` file in vanilla javascript 
+#### How to use `DownloadFileServices.ts` file in vanilla javascript
 
 Just rename `DownloadFileServices.ts` to `DownloadFileServices.js` and remove `types`. 😇
-
-
 
 ## Contributing 🙏🏽
 
 Contributions are always welcome!
-
-
