@@ -1,6 +1,7 @@
 # React Native File Download 🔥
 
 In this repo you will find quick snippet for downloading file in React Native (android & iOS)
+![App Screenshot](appImages/banner.png)
 
 ## Installation 🔧
 
@@ -80,10 +81,6 @@ Start the project
 ```bash
   yarn android_dev_debug
 ```
-
-## Screenshots
-
-![App Screenshot](appImages/banner.png)
 
 ## FAQ
 
